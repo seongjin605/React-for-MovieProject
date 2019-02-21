@@ -36,7 +36,7 @@ class App extends Component {
     return movies;
   }
   
- _getMovies =  async() => {
+ _getMovies = async() => {
     const movies = await this._callApi();
     this.setState({
       movies
